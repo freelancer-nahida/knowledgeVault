@@ -20,8 +20,18 @@
     color:#FFFFFF ;
     border:none ;
 }
+.btn2{
+    background-color:#b8bab9;
+    opacity: 0.5;
+    padding:12px 16px ;
+    border-radius:5px ;
+    font-size:16px ;
+    font-weight:600 ;
+    color:#FFFFFF ;
+    border:none ;
+}
 
-
+/* style header section */
 header{
     display: flex;
     justify-content: space-between;
@@ -42,4 +52,46 @@ nav ul li a{
     font-size: 16px;
     font-weight: 500;
     color: #000000;
+}
+/* style hero section */
+#hero{
+    background: url(../image/cropped-hands-woman-writing-book\ 1.png);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+
+}
+ #hero .hero-content{
+    padding:115px  120px 180px 120px ;
+}
+ #hero .secondary-btn{
+    border-radius:20px ;
+     padding: 8px 12px;
+     background-color:white ;
+     color:#469165 ;
+     border: none;
+      font-size: 16px;
+    font-weight: 500;
+
+}
+#hero .hero-heading{
+    padding-top: 15px;
+    font-size:70px ;
+    font-weight:700 ;
+    line-height: 80px;
+    color: white;
+}
+#hero .hero-heading span{
+    color: #30B868;
+}
+#hero .hero-description{
+    padding-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#hero .hero-btn{
+    padding-top: 16px;
+
 }
