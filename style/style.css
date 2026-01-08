@@ -95,3 +95,22 @@ nav ul li a{
     padding-top: 16px;
 
 }
+
+/* style notes section */
+#notes .notes-heading{
+  font-size:48px ;
+  font-weight:700 ;
+  color:#001931 ;
+
+}
+#notes .notes-p{
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+#notes{
+padding-top: 50px;
+text-align: center;
+
+}
