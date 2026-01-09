@@ -175,7 +175,7 @@ font-size:48px ;
 #second-brain .second-brain-content p{
 padding:10px  0px;
 font-size:15px ;
-line-height: 20px;
+line-height:20px;
 color:#627382 ;
 }
 #second-brain .second-brain-content .check{
@@ -189,4 +189,27 @@ color:#627382 ;
     font-size:16px ;
     font-weight:500 ;
     color:#001931 ;
+}
+
+/* style Ready section */
+
+#ready{
+ margin: 0 120px 120px 120px;
+ padding:80px ;
+ background-color:#F7F6F2 ;
+ border-radius: 5px;
+text-align: center;
+align-items: center;
+}
+#ready h3{
+font-size:40px ;
+font-weight:700 ;
+color:#001931 ;
+ 
+}
+#ready p{
+padding: 10px 0;
+font-size:16px ;
+line-height:20px;
+color:#627382 ;
 }
