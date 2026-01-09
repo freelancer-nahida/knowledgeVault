@@ -150,5 +150,43 @@ color:#627382 ;
 
 }
 #card-section{
-    padding:50px 120px ;
+    padding:50px 120px   0px;
+}
+
+/* style second-brain */
+#second-brain{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 120px;
+
+}
+#second-brain .second-brain-content h4{
+ font-size:16px ;
+ font-weight:500 ;
+ color:#469165 ;
+}
+#second-brain .second-brain-content h2{
+font-size:48px ;
+ font-weight:700 ;
+ color:#001931 ;
+ padding-top:10px ;
+}
+#second-brain .second-brain-content p{
+padding:10px  0px;
+font-size:15px ;
+line-height: 20px;
+color:#627382 ;
+}
+#second-brain .second-brain-content .check{
+
+    color: wheat;
+    padding: 5px;
+  background-color:#30B868 ;
+  border-radius: 50%;
+}
+#second-brain .second-brain-content .second-brain-list p{
+    font-size:16px ;
+    font-weight:500 ;
+    color:#001931 ;
 }
