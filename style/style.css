@@ -92,6 +92,7 @@ nav ul li a{
     color: #FFFFFF;
 }
 #hero .hero-btn{
+
     padding-top: 16px;
 
 }
@@ -113,4 +114,41 @@ nav ul li a{
 padding-top: 50px;
 text-align: center;
 
+}
+/* style card section */
+
+
+#card-section .card{
+    width: 300px;
+    padding: 45px 20px 30px 20px ;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px  rgba(0, 0, 0, 0.06);
+}
+#card-section .card img{
+   background-color:#F95555 ;
+   border-radius:50% ;
+   padding: 15px;
+}
+
+#card-section .card h3{
+font-size:24px ;
+font-weight:600 ;
+color: #001931;
+}
+
+#card-section .card p{
+padding-top:10px ;
+font-size:15px ;
+line-height: 20px;
+color:#627382 ;
+}
+
+#card-section .card-container{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+
+}
+#card-section{
+    padding:50px 120px ;
 }
