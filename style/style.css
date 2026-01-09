@@ -21,14 +21,13 @@
     border:none ;
 }
 .btn2{
-    background-color:#b8bab9;
-    opacity: 0.5;
+    background-color:#b8bab900;
     padding:12px 16px ;
     border-radius:5px ;
     font-size:16px ;
     font-weight:600 ;
     color:#FFFFFF ;
-    border:none ;
+    border:1px solid white;
 }
 
 /* style header section */
@@ -236,10 +235,14 @@ footer h4{
 }
 
 footer .social-icon{
-    padding: 5px;
     background-color:#FAFAFA ;
-    color: #001931;
+    color: black;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer .social-icon-box{
     display: flex;
